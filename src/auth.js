@@ -7,7 +7,7 @@ module.exports.verifyUser = (req, res, next) => {
     err.status = 401;
     return next(err);
   }
-
+//auth
   let token = authHeader.split(" ")[1];
   let data;
 
