@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const Register = new mongoose.Schema({
+  //Register
   fullname: {
     type: String
   },
