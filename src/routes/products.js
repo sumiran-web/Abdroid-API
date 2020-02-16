@@ -11,7 +11,7 @@ router.post("/addproducts", (req, res, next) => {
     location:req.body.location
   })
     .then(product => {
-      res.json({ status: "Restaurant Added!" });
+      res.json({ status: "Restaurant added!" });
     })
     .catch(next);
 });
